@@ -1,0 +1,361 @@
+{
+    "local": {
+        "shipping": {
+            "cutoffTime": 21,
+            "shippingDays": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6
+            ],
+            "processingDays": 0,
+            "timezone": "Asia/Muscat",
+            "shippingHolidays": [
+                "2025-06-05",
+                "2025-06-06",
+                "2025-06-07",
+                "2025-06-08",
+                "2025-06-09"
+            ]
+        },
+        "destinations": {
+            "OMR": {
+                "type": "governorates",
+                "label_ar": "عُمان",
+                "label_en": "Oman",
+                "regions": {
+                    "muscat": {
+                        "label_ar": "مسقط",
+                        "label_en": "Muscat",
+                        "deliveryDays": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ],
+                        "min": 1,
+                        "max": 1,
+                        "holidays": []
+                    },
+                    "dhofar": {
+                        "label_ar": "ظفار",
+                        "label_en": "Dhofar",
+                        "deliveryDays": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ],
+                        "min": 1,
+                        "max": 4,
+                        "holidays": []
+                    },
+                    "musandam": {
+                        "label_ar": "مسندم",
+                        "label_en": "Musandam",
+                        "deliveryDays": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ],
+                        "min": 3,
+                        "max": 6,
+                        "holidays": []
+                    },
+                    "al_buraimi": {
+                        "label_ar": "البريمي",
+                        "label_en": "Al Buraimi",
+                        "deliveryDays": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ],
+                        "min": 1,
+                        "max": 3,
+                        "holidays": []
+                    },
+                    "ad_dakhiliyah": {
+                        "label_ar": "الداخلية",
+                        "label_en": "Ad Dakhiliyah",
+                        "deliveryDays": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ],
+                        "min": 1,
+                        "max": 3,
+                        "holidays": []
+                    },
+                    "north_al_batinah": {
+                        "label_ar": "شمال الباطنة",
+                        "label_en": "North Al Batinah",
+                        "deliveryDays": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ],
+                        "min": 1,
+                        "max": 3,
+                        "holidays": []
+                    },
+                    "south_al_batinah": {
+                        "label_ar": "جنوب الباطنة",
+                        "label_en": "South Al Batinah",
+                        "deliveryDays": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ],
+                        "min": 1,
+                        "max": 3,
+                        "holidays": []
+                    },
+                    "south_ash_sharqiyah": {
+                        "label_ar": "جنوب الشرقية",
+                        "label_en": "South Ash Sharqiyah",
+                        "deliveryDays": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ],
+                        "min": 1,
+                        "max": 3,
+                        "holidays": []
+                    },
+                    "north_ash_sharqiyah": {
+                        "label_ar": "شمال الشرقية",
+                        "label_en": "North Ash Sharqiyah",
+                        "deliveryDays": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ],
+                        "min": 1,
+                        "max": 3,
+                        "holidays": []
+                    },
+                    "ad_dhahirah": {
+                        "label_ar": "الظاهرة",
+                        "label_en": "Ad Dhahirah",
+                        "deliveryDays": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ],
+                        "min": 1,
+                        "max": 3,
+                        "holidays": []
+                    },
+                    "al_wusta": {
+                        "label_ar": "الوسطى",
+                        "label_en": "Al Wusta",
+                        "deliveryDays": [
+                            0,
+                            1,
+                            2,
+                            3,
+                            4,
+                            5,
+                            6
+                        ],
+                        "min": 2,
+                        "max": 5,
+                        "holidays": []
+                    }
+                }
+            }
+        }
+    },
+    "international": {
+        "shipping": {
+            "cutoffTime": 21,
+            "shippingDays": [
+                0,
+                1,
+                2,
+                3,
+                4
+            ],
+            "processingDays": 1,
+            "timezone": "Asia/Muscat",
+            "shippingHolidays": [
+                "2025-06-05",
+                "2025-06-06",
+                "2025-06-07",
+                "2025-06-08",
+                "2025-06-09"
+            ]
+        },
+        "destinations": {
+            "AED": {
+                "type": "country",
+                "timezone": "Asia/Dubai",
+                "label_ar": "الإمارات",
+                "label_en": "UAE",
+                "deliveryDays": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "min": 3,
+                "max": 6,
+                "holidays": []
+            },
+            "SAR": {
+                "type": "country",
+                "timezone": "Asia/Riyadh",
+                "label_ar": "السعودية",
+                "label_en": "Saudi Arabia",
+                "deliveryDays": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "min": 4,
+                "max": 7,
+                "holidays": []
+            },
+            "KWD": {
+                "type": "country",
+                "timezone": "Asia/Kuwait",
+                "label_ar": "الكويت",
+                "label_en": "Kuwait",
+                "deliveryDays": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "min": 4,
+                "max": 7,
+                "holidays": []
+            },
+            "QAR": {
+                "type": "country",
+                "timezone": "Asia/Qatar",
+                "label_ar": "قطر",
+                "label_en": "Qatar",
+                "deliveryDays": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "min": 4,
+                "max": 7,
+                "holidays": []
+            },
+            "BHD": {
+                "type": "country",
+                "timezone": "Asia/Bahrain",
+                "label_ar": "البحرين",
+                "label_en": "Bahrain",
+                "deliveryDays": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "min": 4,
+                "max": 7,
+                "holidays": []
+            },
+            "USD": {
+                "type": "country",
+                "timezone": "America/New_York",
+                "label_ar": "الولايات المتحدة",
+                "label_en": "United States",
+                "deliveryDays": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "min": 4,
+                "max": 7,
+                "holidays": []
+            },
+            "EUR": {
+                "type": "country",
+                "timezone": "Europe/Berlin",
+                "label_ar": "أوروبا",
+                "label_en": "Europe",
+                "deliveryDays": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "min": 4,
+                "max": 7,
+                "holidays": []
+            },
+            "GBP": {
+                "type": "country",
+                "timezone": "Europe/London",
+                "label_ar": "المملكة المتحدة",
+                "label_en": "United Kingdom",
+                "deliveryDays": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "min": 4,
+                "max": 7,
+                "holidays": []
+            }
+        }
+    }
+}
