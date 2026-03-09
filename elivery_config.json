@@ -1,7 +1,7 @@
 {
     "local": {
         "shipping": {
-            "cutoffTime": 21,
+            "cutoffTime": 22,
             "shippingDays": [
                 0,
                 1,
